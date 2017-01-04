@@ -1,0 +1,99 @@
+body {
+  font-size: 16px;
+  color: #000;
+  background-color: white;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+#header-nav  {
+	background-color: #888;
+	border-radius: 0;
+	border-bottom: 2px solid black;
+	height: 100px;
+}
+
+#header-nav .navbar-brand {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  color: #222;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin: 0px;
+}
+
+.navbat-brand h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #000;
+
+}
+.navbar-brand:hover, .navbar-brand:focus {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+#collapsable-nav {
+	clear: both;
+}
+#nav-list {
+	margin:0;
+	padding:0;
+  	margin-top: 0px;
+}
+#nav-list a {
+	color: #000;
+	background-color: #FFF;
+    border: 1px solid black;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+#nav-list a:hover {
+	background: #DDD;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #222;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -30px;
+}
+
+div.text-center > h2 {
+	margin-bottom: 30px;
+}
+
+p {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  color: black;
+  clear: both;
+  text-align: justify;
+}
+
+.box{
+  background-color: gray; 
+  border: 1px solid black;
+  margin: 10px;
+}
+
+
+.title {
+  margin: 16px auto 16px;
+  padding: 0px 10px 0px 10px;
+  width: 120px;
+  text-align: center;
+}
+
+/* END HEADER */
